@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pb:gen": "./scripts/gen.sh greet",
+    "pb:gen": "./scripts/gen.sh greet calculateSum",
     "greet:server": "node greet/server/index.js",
-    "greet:client": "node greet/client/index.js"
+    "greet:client": "node greet/client/index.js",
+    "calc:server": "node calculateSum/server/index.js",
+    "calc:client": "node calculateSum/client/index.js"
   },
   "keywords": [],
   "author": "",
